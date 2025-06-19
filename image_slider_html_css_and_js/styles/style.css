@@ -3,6 +3,11 @@ body {
     padding: 0; 
     background-color: #eee;
     font: normal 1.3em system-ui;
+    color: rgb(59, 59, 59);
+}
+
+.ireland-img-m {
+    width: 100%;
 }
 
 header {
@@ -20,13 +25,15 @@ header.scrolled {
 }
 
 header nav {
-    padding: 1.5em 0 1.5em 5em;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: left;
 }
 
 header nav a {
     text-decoration: none;
     color: rgb(66, 66, 66);
-    margin: 1em;
+    margin-right: 1em;
     transition: color 0.3s ease-in-out;
 }
 
@@ -41,8 +48,24 @@ header.scrolled nav a {
 }
 
 .content p {
-    color: rgb(66, 66, 66);
     padding-bottom: 16px;
+}
+
+.australia-description {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.australia-description img {
+    width: 500px;
+}
+
+.australia-description p {
+    margin: 0;
+    width: 500px;
 }
 
 footer p {
