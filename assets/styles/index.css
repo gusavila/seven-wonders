@@ -72,12 +72,40 @@ body {
     width: 320px;
     text-align: left;
     color: #eee;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5) 70%, rgba(0, 0, 0, 0.1));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7) 70%, rgba(0, 0, 0, 0.1));
     transform: translate(0, -50%);
     font-family: system-ui;
     display: none;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 8px;
+}
+
+.item.coliseu {
+  background-image: url('../images/coliseu.jpg');
+}
+
+.item.taj-mahal {
+  background-image: url('../images/taj-mahal.jpg');
+}
+
+.item.machu-picchu {
+  background-image: url('../images/machu-picchu.jpg');
+}
+
+.item.muralha-da-china {
+  background-image: url('../images/muralha-da-china.jpg');
+}
+
+.item.cristo-redentor {
+  background-image: url('../images/cristo-redentor.jpg');
+}
+
+.item.petra {
+  background-image: url('../images/petra.jpg');
+}
+
+.item.chichen-itza {
+  background-image: url('../images/chichen-itza.jpg');
 }
 
 .slide .item:nth-child(2) .content {
@@ -89,14 +117,14 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     opacity: 0;
-    animation: animate 1s ease-in-out 1 forwards;
+    animation: animate 0.7s ease-in-out 1 forwards;
 }
 
 .content .des {
     margin-top: 10px;
     margin-bottom: 20px;
     opacity: 0;
-    animation: animate 1s ease-in-out 0.3s 1 forwards;
+    animation: animate 0.6s ease-in-out 0.3s 1 forwards;
 }
 
 .content button {
@@ -104,7 +132,7 @@ body {
     border: none;
     cursor: pointer;
     opacity: 0;
-    animation: animate 1s ease-in-out 0.6s 1 forwards;
+    animation: animate 0.5s ease-in-out 0.6s 1 forwards;
 }
 
 @keyframes animate {
