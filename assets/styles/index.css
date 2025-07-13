@@ -82,31 +82,31 @@ body {
 }
 
 .item.coliseu {
-  background-image: url('../images/coliseu.jpg');
+  background-image: url('../images/coliseu.webp');
 }
 
 .item.taj-mahal {
-  background-image: url('../images/taj-mahal.jpg');
+  background-image: url('../images/taj-mahal.webp');
 }
 
 .item.machu-picchu {
-  background-image: url('../images/machu-picchu.jpg');
+  background-image: url('../images/machu-picchu.webp');
 }
 
 .item.muralha-da-china {
-  background-image: url('../images/muralha-da-china.jpg');
+  background-image: url('../images/muralha-da-china.webp');
 }
 
 .item.cristo-redentor {
-  background-image: url('../images/cristo-redentor.jpg');
+  background-image: url('../images/cristo-redentor.webp');
 }
 
 .item.petra {
-  background-image: url('../images/petra.jpg');
+  background-image: url('../images/petra.webp');
 }
 
 .item.chichen-itza {
-  background-image: url('../images/chichen-itza.jpg');
+  background-image: url('../images/chichen-itza.webp');
 }
 
 .slide .item:nth-child(2) .content {
